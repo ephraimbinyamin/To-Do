@@ -6,30 +6,43 @@
     justify-content: normal;
     grid-template: 40px / auto 60px;
     gap: 15px;
-    height: 40px;
-    margin-top: 20px;
+    margin-top: 35px;
+    @media (max-width: 767px) {
+        grid-template: 48px / auto 60px;
+    }
     &__input {
         display: block;
         height: 100%;
         width: 100%;
+        color: var(--text-color);
+        font-size: 17px;
         background-color: transparent;
-        border: 1px solid $lightgrey;
+        border: 1px solid var(--border-color);
         border-radius: 4px;
-        box-shadow: $box-shadow;
+        box-shadow: var(--box-shadow);
         padding: 15px;
         transition: all 0.3s;
         &:hover {
-            border: 1px solid black;
+            border: 1px solid var(--border-hover-focus-color);
         }
         &:focus {
             outline: none;
-            border: 1px solid black;
+            border: 1px solid var(--border-hover-focus-color);
         }
         &::placeholder {
-            color: $lightgrey;
+            color: var(--input-placeholder);
+        }
+        @media (max-width: 767px) {
+            &:hover {
+                border: 1px solid var(--border-color); 
+            }
+            &:focus {
+                border: 1px solid var(--border-color);
+            }
         }
     }
     &__btn {
+        height: 100%;
         width: 60px;
         background-color: transparent;
     }
