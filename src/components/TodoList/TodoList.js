@@ -29,8 +29,6 @@ const TodoList = () => {
         )
     }
 
-    const renderedTasks = renderTasks(tasks);
-
     const checkTasksToTheBottom = (arr) => {
         const completedTasksNumber = arr.filter(({isChecked}) => isChecked === true).length;
         return (
@@ -89,6 +87,7 @@ const TodoList = () => {
         )
     }
 
+    const renderedTasks = renderTasks(tasks);
     const checkedTasksToTheBottom = checkTasksToTheBottom(tasks);
 
     return (
