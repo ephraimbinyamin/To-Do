@@ -1,10 +1,11 @@
-// Light Theme
+// Grey Theme
 body {
-    --app-background-color: #f6f6f6;
-    --header-color: #808080;
-    --header-mobile-color: #808080;
+    --app-background-color: #e9e9e9;
+    --header-color: #535353;
+    --header-mobile-color: #535353;
     --text-color: #000;
     --text-mobile-color: #000;
+    --list-background-color: #fff;
 
     --settings-background-color: #f6f6f6;
     --settings-background-mobile-color: #f6f6f6;
@@ -12,26 +13,27 @@ body {
     --settings-box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
 
     --text-crossed-color: #808080;
+    --input-background-color: #fff;
     --input-placeholder-color: #5f6368;
     --completed-title-color: #5f6368;
     --completed-title-hover-color: #000;
 
     --task-btns-color: #808080;
     --task-btns-hover-color: #000;
-    --task-btns-mobile-color: #000;
+    --task-btns-mobile-color: #565656;
 
-    --btn-text-color: #5f6368;
+    --btn-text-color: #fff;
     --btn-text-hover-active-color: #fff;
-    --btn-background-color: #fff;
-    --btn-background-hover-active-color: #4d4d4d;
-    --btn-border-color: #b3b3b3;
-    --btn-border-hover-active-color: #4d4d4d;
+    --btn-background-color: #565656;
+    --btn-background-hover-active-color: #706f6f;
+    --btn-border-color: #565656;
+    --btn-border-hover-active-color: #706f6f;
 
-    --border-color: #b3b3b3;
+    --border-color: #9c9d9d;
     --border-hover-focus-color: #000;
 
-    --status-icon-color: #d9d9d9;
-    --status-text-color: #a6a6a6;
+    --status-icon-color: #999999;
+    --status-text-color: #535353;
 
     --box-shadow: 0 0 2px 0 rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%);
 }
@@ -43,6 +45,7 @@ body.dark {
     --header-mobile-color: #fff;
     --text-color: #e8eaed;
     --text-mobile-color: #fff;
+    --list-background-color: transparent;
 
     --settings-background-color: #313235;
     --settings-background-mobile-color: #202124;
@@ -50,6 +53,7 @@ body.dark {
     --settings-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 60%), 0 4px 8px 3px rgb(0 0 0 / 30%);
 
     --text-crossed-color: #808080;
+    --input-background-color: transparent;
     --input-placeholder-color: #b3b3b3;
     --completed-title-color: #b3b3b3;
     --completed-title-hover-color: #fff;
@@ -73,3 +77,82 @@ body.dark {
 
     --box-shadow: none;
 }
+
+// Light Theme
+// body {
+//     --app-background-color: #f6f6f6;
+//     --header-color: #808080;
+//     --header-mobile-color: #808080;
+//     --text-color: #000;
+//     --text-mobile-color: #000;
+//     --list-background-color: transparent;
+
+//     --settings-background-color: #f6f6f6;
+//     --settings-background-mobile-color: #f6f6f6;
+//     --settings-section-title-color: #0B57CF;
+//     --settings-box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+
+//     --text-crossed-color: #808080;
+//     --input-placeholder-color: #5f6368;
+//     --completed-title-color: #5f6368;
+//     --completed-title-hover-color: #000;
+
+//     --task-btns-color: #808080;
+//     --task-btns-hover-color: #000;
+//     --task-btns-mobile-color: #000;
+
+//     --btn-text-color: #5f6368;
+//     --btn-text-hover-active-color: #fff;
+//     --btn-background-color: #fff;
+//     --btn-background-hover-active-color: #4d4d4d;
+//     --btn-border-color: #b3b3b3;
+//     --btn-border-hover-active-color: #4d4d4d;
+
+//     --border-color: #b3b3b3;
+//     --border-hover-focus-color: #000;
+
+//     --status-icon-color: #d9d9d9;
+//     --status-text-color: #a6a6a6;
+
+//     --box-shadow: 0 0 2px 0 rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%);
+// }
+
+// Light Blue Theme
+// body {
+//     --app-background-color: #d5ecf2;
+//     --header-color: #033542;
+//     --header-mobile-color: #033542;
+//     --text-color: #000;
+//     --text-mobile-color: #000;
+//     --list-background-color: #fff;
+
+//     --settings-background-color: #f6f6f6;
+//     --settings-background-mobile-color: #f6f6f6;
+//     --settings-section-title-color: #0B57CF;
+//     --settings-box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+
+//     --text-crossed-color: #808080;
+//     --input-background-color: #fff;
+//     --input-placeholder-color: #5f6368;
+//     --completed-title-color: #5f6368;
+//     --completed-title-hover-color: #000;
+
+//     --task-btns-color: #033542;
+//     --task-btns-hover-color: #406771;
+//     --task-btns-mobile-color: #000;
+
+//     --btn-text-color: #fff;
+//     --btn-text-hover-active-color: #fff;
+//     --btn-background-color: #033542;
+//     --btn-background-hover-active-color: #406771;
+//     --btn-border-color: #033542;
+//     --btn-border-hover-active-color: #4a6570;
+
+//     --border-color: #033542;
+//     --border-hover-focus-color: #000;
+
+//     --status-icon-color: #406771;
+//     --status-text-color: #033542;
+
+//     --box-shadow: 0 0 2px 0 rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%);
+// }

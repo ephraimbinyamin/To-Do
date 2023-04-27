@@ -1,4 +1,4 @@
-# To-Do List App
+# To-Do List
 
 ![preview](./public/preview.png)
 
