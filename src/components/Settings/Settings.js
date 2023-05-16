@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useSelector , useDispatch } from 'react-redux';
-import { toggleTheme , toggleTaksToBottom } from '../../actions';
+import { toggleTheme , toggleTaksToBottom } from '../../redux/actions';
 
 import './settings.scss';
 

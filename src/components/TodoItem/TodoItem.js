@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { deleteTask , toggleTask , editTask } from '../../actions';
+import { deleteTask , toggleTask , editTask } from '../../redux/actions';
 
 import './todoItem.scss';
 

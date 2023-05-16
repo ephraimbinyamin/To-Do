@@ -2,7 +2,7 @@ import { useState , useRef } from 'react';
 import { nanoid } from 'nanoid';
 
 import { useDispatch } from 'react-redux';
-import { addTask } from '../../actions';
+import { addTask } from '../../redux/actions';
 
 import './todoAddInput.scss';
 

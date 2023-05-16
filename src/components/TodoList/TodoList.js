@@ -1,5 +1,5 @@
 import { useDispatch , useSelector } from "react-redux";
-import { toggleDisplayCheckedTasks } from "../../actions";
+import { toggleDisplayCheckedTasks } from "../../redux/actions";
 
 import TodoItem from "../TodoItem/TodoItem";
 import NoTasks from "../NoTasks/NoTasks";
