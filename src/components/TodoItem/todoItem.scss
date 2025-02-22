@@ -57,14 +57,13 @@
         &-checkbox {
             position: absolute;
             z-index: 15;
-            top: 7.5px;
+            top: 11.5px;
             left: 18px;
             height: 25px;
             width: 25px;
             cursor: pointer;
             @media (max-width: 767px) {
                 cursor: default;
-                top: 11px;
             }
             &_icon {
                 position: absolute;
@@ -106,7 +105,7 @@
         &-delete {
             position: absolute;
             z-index: 15;
-            top: 7.5px;
+            top: 11.5px;
             right: 13px;
             height: 25px;
             width: 25px;
@@ -133,29 +132,24 @@
             @media (max-width: 767px) {
                 display: none;
                 cursor: default;
-                top: 11px;
             }
         }
     }
     &__text {
         position: relative;
-        min-height: 40px;
+        min-height: 48px;
         width: 100%;
         color: var(--text-color);
         font-size: 17px;
         word-wrap: break-word;
         white-space: pre-wrap;
         outline: none;
-        padding: 9px 50px;
+        padding: 12px 50px;
         border: 1px solid var(--border-color);
         border-radius: inherit;
         &-crossed {
             color: var(--text-crossed-color);
             text-decoration: line-through;
-        }
-        @media (max-width: 767px) {
-            min-height: 48px;
-            padding: 13px 81px 13px 50px;
         }
     }
 }
